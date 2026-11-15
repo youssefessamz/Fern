@@ -1,0 +1,37 @@
+{
+  "fern": {
+    "label": "Fern",
+    "role": "guide",
+    "where": "landing + intro",
+    "bg": "#14101e"
+  },
+  "queen": {
+    "label": "Queen of Ooo",
+    "role": "plan",
+    "plan": "profit",
+    "bg": "#16131c"
+  },
+  "bmo": {
+    "label": "BMO",
+    "role": "plan",
+    "plan": "land_health",
+    "bg": "#14121f"
+  },
+  "huntress": {
+    "label": "Huntress Wizard",
+    "role": "plan",
+    "plan": "balanced",
+    "bg": "#13101b"
+  },
+  "extra_glasses": {
+    "label": "(unassigned)",
+    "role": "unassigned",
+    "bg": "#171321"
+  },
+  "expressions": {
+    "neutral": "idle / default",
+    "happy": "good result (healthy soil, high profit, plan selected)",
+    "annoyed": "warning (poor soil, drought risk, low confidence)",
+    "excited": "alert / new insight (!! moments)"
+  }
+}

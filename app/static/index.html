@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Field Shift: crop plans for Nevada farms</title><link rel="stylesheet" href="/static/style.css"></head>
+<body>
+<header><h1>Field Shift</h1><span>NASA-data crop rotation planner · Nevada</span></header>
+<main>
+  <section id="intro" class="screen">
+    <div class="fern"><img id="fernImg" alt="Fern"><div class="bubble"><p id="fernSay">Hi, I'm <b>Fern</b>! Tell me where your field is and what you've planted since 2025. I'll show you what I know about your land and bring three plans from my friends.</p></div></div>
+    <button id="start" class="btn">Let's go</button>
+  </section>
+
+  <section id="form" class="screen hidden">
+    <div class="card">
+      <h2>Your field</h2>
+      <div class="row"><label>Latitude<input id="lat" type="number" step="any"></label><label>Longitude<input id="lon" type="number" step="any"></label></div>
+      <div class="chips"><span>Sample spots in my data:</span><div id="chips"></div></div>
+      <h2>What have you planted?</h2><div class="row" id="hist"></div>
+      <p id="err" class="err"></p>
+      <button id="go" class="btn">Show me the plans</button>
+    </div>
+  </section>
+
+  <section id="results" class="hidden">
+    <div class="fern small"><img id="fernRes" alt="Fern"><div class="bubble" id="summary"></div></div>
+    <div class="grid"><div class="card" id="landCard"></div><div class="card" id="histCard"></div></div>
+    <div class="grid"><div class="card"><h3>Temperature by month (°C)</h3><div id="tempChart"></div></div><div class="card"><h3>NDVI, 2016 to 2025</h3><div id="ndviChart"></div></div></div>
+    <h2 id="plansTitle"></h2><div class="plans" id="plans"></div>
+    <p class="foot" id="foot"></p>
+    <button id="again" class="btn ghost">Check another field</button>
+  </section>
+</main>
+<script src="/static/app.js"></script>
+</body></html>

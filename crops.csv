@@ -1,0 +1,20 @@
+# PLACEHOLDER VALUES: approximate agronomy ranges and ILLUSTRATIVE prices/costs per acre. Replace with FAO EcoCrop + USDA NASS Nevada numbers.
+crop,family,legume,t_abs_lo,t_opt_lo,t_opt_hi,t_abs_hi,ph_abs_lo,ph_opt_lo,ph_opt_hi,ph_abs_hi,months,water_mm,soil_effect,revenue_ac,cost_ac
+Alfalfa,legume,1,5,15,25,35,5.5,6.5,7.8,8.5,6,1000,0.9,1100,650
+Other Hay/Non Alfalfa,grass,0,5,12,24,32,5.0,5.8,7.5,8.3,5,800,0.5,700,450
+Barley,grass,0,3,12,20,30,5.0,6.0,7.8,8.5,4,450,0.2,450,320
+Oats,grass,0,4,12,20,28,4.5,5.5,7.2,8.0,4,450,0.3,380,300
+Winter Wheat,grass,0,3,11,20,30,5.0,6.0,7.5,8.5,5,500,0.2,520,340
+Spring Wheat,grass,0,4,12,22,32,5.2,6.0,7.5,8.3,4,500,0.1,500,340
+Triticale,grass,0,4,12,22,30,4.8,5.5,7.5,8.2,4,450,0.3,430,330
+Rye,grass,0,3,10,20,28,4.5,5.5,7.5,8.3,4,400,0.6,330,260
+Corn,grass,0,12,20,28,35,5.0,5.8,7.2,8.0,5,650,-0.2,840,560
+Sorghum,grass,0,15,23,30,38,5.0,5.8,7.8,8.5,4,500,0.1,520,350
+Canola,brassica,0,5,12,22,30,5.0,6.0,7.5,8.3,4,450,0.0,450,320
+Peas,legume,1,4,10,18,26,5.2,6.0,7.5,8.0,3,350,0.7,480,330
+Potatoes,nightshade,0,6,12,20,28,4.5,5.2,6.8,7.8,4,600,-0.6,4200,3200
+Onions,allium,0,7,13,24,30,5.5,6.0,7.5,8.0,5,550,-0.4,6000,4800
+Garlic,allium,0,4,12,22,28,5.5,6.0,7.5,8.0,6,500,-0.2,9000,7000
+Carrots,apiaceae,0,7,14,20,26,5.0,5.8,7.2,8.0,4,500,-0.4,4800,3800
+Pumpkins,cucurbit,0,12,18,26,32,5.0,6.0,7.5,8.0,4,500,-0.1,2600,1900
+Mint,lamiaceae,0,8,15,24,30,5.5,6.0,7.5,8.0,5,750,-0.2,3000,2200
